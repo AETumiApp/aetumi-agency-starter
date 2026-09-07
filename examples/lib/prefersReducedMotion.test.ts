@@ -17,7 +17,9 @@ describe('prefersReducedMotion', () => {
   });
 
   it('queries the correct media feature string', () => {
-    const spy = vi.fn<MediaQueryMatcher>(() => ({ matches: true }));
+    // vitest 1's `vi.fn<TArgs extends any[], R>` is parameterised by the argument
+    // tuple and return type (not the whole function type).
+    const spy = vi.fn<[query: string], { matches: boolean }>(() => ({ matches: true }));
     prefersReducedMotion(spy);
     expect(spy).toHaveBeenCalledWith(REDUCED_MOTION_QUERY);
   });
