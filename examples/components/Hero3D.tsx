@@ -194,7 +194,11 @@ export default function Hero3D({
         let pageVisible = typeof document === 'undefined' ? true : !document.hidden;
 
         const start = () => {
-          if (running || !renderer) return;
+          // Reduced motion is a hard gate: the loop must never start, no matter
+          // what scroll (IntersectionObserver) or tab visibility (visibilitychange)
+          // reports. Those handlers funnel through syncRunState() → start(), so
+          // gating here keeps reduced motion a single static frame.
+          if (running || !renderer || reduceMotion) return;
           running = true;
           lastTs = (typeof performance !== 'undefined' ? performance : Date).now();
           renderer.setAnimationLoop(loop);
