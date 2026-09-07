@@ -84,10 +84,9 @@ Claude Code, Cursor and Codex can accelerate implementation, but agency teams sh
 
 ## Repository status
 
-Documentation-first. Planned examples cover reusable discovery, build, QA and handoff patterns for agency projects.
+Active. Runnable, production-oriented examples now live in [`examples/`](./examples/) — reviewed for performance (adaptive quality), accessibility, reduced-motion and non-WebGL fallbacks, and clean resource disposal. The set is refined and extended as new patterns land.
 
 See [examples/README.md](./examples/README.md).
-
 ## About AETumi
 
 AETumi helps agencies, designers and developers deliver production-ready 3D web experiences with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding assistants.
