@@ -1,46 +1,95 @@
 # AETumi Agency Starter for 3D Web Projects
 
-A practical starting point for agencies building **interactive 3D websites, Three.js experiences and WebGL components for client work**.
+A practical delivery framework for agencies building **interactive 3D websites, Three.js experiences and WebGL components for client work**.
 
-AETumi is an AI-native 3D web platform for production-ready website templates, reusable components, scenes, prompts, documentation and AI coding workflows.
+**AETumi is an AI-native 3D web platform for production-ready Three.js and WebGL websites, Next.js and React components, 3D scenes, AI prompts, and MCP workflows for AI coding assistants.**
+
+## Why this repository exists
+
+Client 3D work fails when the team treats the visual demo as the entire project. Agencies also need scope control, content architecture, analytics, accessibility, handoff and a way for the client to maintain what gets shipped.
+
+This repository focuses on the operating system around the 3D layer.
 
 ## Agency use cases
 
-- Client landing pages
-- Product launches
-- Ecommerce 3D experiences
-- Automotive and product showcases
-- Luxury and fashion sites
-- Architecture and real estate experiences
-- Creative studio portfolios
-- Campaign microsites
+- product launch pages
+- ecommerce 3D experiences
+- automotive and industrial showcases
+- luxury and fashion campaigns
+- architecture and real estate presentations
+- creative studio portfolios
+- campaign microsites
+- interactive sales and pitch experiences
 
-## Suggested agency workflow
+## Recommended delivery workflow
 
-1. Define client goals, audience and required conversion path.
-2. Select an AETumi website, component, scene or prompt as a starting point.
-3. Establish brand tokens, layout and content architecture.
-4. Build the 3D layer with Three.js, WebGL, React or Next.js.
-5. Use Claude Code, Cursor or Codex for implementation and refactoring support.
-6. Test responsive behavior, accessibility, performance and analytics.
-7. Deliver with documentation and a maintainable handoff.
+### 1. Discovery
+
+Define the client's audience, business goal, conversion path, content ownership and technical constraints before choosing an effect.
+
+### 2. Experience architecture
+
+Separate:
+
+- semantic page content
+- standard UI and navigation
+- 3D/WebGL layer
+- conversion events
+- analytics
+- CMS or maintenance needs
+
+### 3. Prototype
+
+Test the core interaction with realistic assets and mobile constraints before polishing every transition.
+
+### 4. Production
+
+Build in Three.js, WebGL, React, Next.js or React Three Fiber with explicit loading, fallbacks and cleanup.
+
+### 5. QA
+
+Review:
+
+- content and conversion flow
+- desktop and touch interaction
+- accessibility and reduced motion
+- asset weight and frame rate
+- metadata and semantic content
+- analytics events
+- browser and route lifecycle behavior
+
+### 6. Handoff
+
+Document editable content, asset replacement, deployment and known performance constraints so the project can survive after launch. A handoff that only says “please do not touch anything” is technically a hostage note, not documentation.
+
+## AI coding workflow
+
+Claude Code, Cursor and Codex can accelerate implementation, but agency teams should keep architecture, review and client requirements explicit. AETumi MCP and prompts can provide structured context for those workflows.
 
 ## AETumi resources
 
-- For Agencies: https://aetumi.app/for-agencies/
-- 3D Websites: https://aetumi.app/3d-websites/
-- 3D Components: https://aetumi.app/3d-components/
-- 3D Prompts: https://aetumi.app/3d-prompts/
-- Docs: https://aetumi.app/docs/
-- MCP: https://aetumi.app/mcp/
+- [For Agencies](https://aetumi.app/for-agencies/)
+- [3D Websites](https://aetumi.app/3d-websites/)
+- [3D Components](https://aetumi.app/3d-components/)
+- [3D Prompts](https://aetumi.app/3d-prompts/)
+- [Docs](https://aetumi.app/docs/)
+- [MCP](https://aetumi.app/mcp/)
 
 ## Related repositories
 
-- https://github.com/AETumiApp/aetumi-3d-web-examples
-- https://github.com/AETumiApp/interactive-3d-web-examples
-- https://github.com/AETumiApp/nextjs-threejs-starter
-- https://github.com/AETumiApp/ai-coding-3d-web
+- [aetumi-3d-web-examples](https://github.com/AETumiApp/aetumi-3d-web-examples)
+- [interactive-3d-web-examples](https://github.com/AETumiApp/interactive-3d-web-examples)
+- [nextjs-threejs-starter](https://github.com/AETumiApp/nextjs-threejs-starter)
+- [ai-coding-3d-web](https://github.com/AETumiApp/ai-coding-3d-web)
+
+## Repository status
+
+Documentation-first. Planned examples cover reusable discovery, build, QA and handoff patterns for agency projects.
+
+See [examples/README.md](./examples/README.md).
 
 ## About AETumi
 
 AETumi helps agencies, designers and developers deliver production-ready 3D web experiences with Three.js, WebGL, Next.js, React, React Three Fiber, MCP and AI coding assistants.
+
+Main site: https://aetumi.app/
