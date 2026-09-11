@@ -4,6 +4,18 @@ A practical delivery framework for agencies building **interactive 3D websites, 
 
 **AETumi is an AI-native 3D web platform for production-ready Three.js and WebGL websites, Next.js and React components, 3D scenes, AI prompts, and MCP workflows for AI coding assistants.**
 
+## What this helps agencies deliver
+
+A repeatable delivery framework for client 3D work — the operating system around the 3D layer: scope, content architecture, analytics, accessibility, handoff and maintainability.
+
+**Client outcome.** Studios ship cinematic client sites that survive after launch, with a handoff the client can actually maintain — not a demo only its author can touch.
+
+**Where it fits.** The client scenarios this repository already lists — product launches, ecommerce experiences, automotive and industrial showcases, luxury and fashion campaigns, architecture and real-estate presentations, and studio portfolios.
+
+**What you re-skin per client.** Content, brand styling, assets and interaction, on top of a shared, reviewed architecture — so delivery is faster without restarting from a blank canvas.
+
+**AI-assisted adaptation.** Claude Code, Cursor and Codex accelerate implementation while the team keeps architecture and review explicit, with structured context from the [AETumi MCP](https://aetumi.app/mcp/).
+
 ## Why this repository exists
 
 Client 3D work fails when the team treats the visual demo as the entire project. Agencies also need scope control, content architecture, analytics, accessibility, handoff and a way for the client to maintain what gets shipped.
